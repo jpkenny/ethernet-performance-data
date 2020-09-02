@@ -1,0 +1,43 @@
+##
+## DCBX ETS configuration
+##
+   interface ethernet 1/2 traffic-class 0 dcb ets wrr 50
+   interface ethernet 1/2 traffic-class 1 dcb ets wrr 50
+   interface ethernet 1/2 traffic-class 2 dcb ets wrr 0
+   interface ethernet 1/2 traffic-class 3 dcb ets wrr 0
+   interface ethernet 1/2 traffic-class 4 dcb ets wrr 0
+   interface ethernet 1/2 traffic-class 5 dcb ets wrr 0
+   interface ethernet 1/2 traffic-class 6 dcb ets wrr 0
+   interface ethernet 1/2 traffic-class 7 dcb ets wrr 0
+   interface ethernet 1/4 traffic-class 0 dcb ets wrr 50
+   interface ethernet 1/4 traffic-class 1 dcb ets wrr 50
+   interface ethernet 1/4 traffic-class 2 dcb ets wrr 0
+   interface ethernet 1/4 traffic-class 3 dcb ets wrr 0
+   interface ethernet 1/4 traffic-class 4 dcb ets wrr 0
+   interface ethernet 1/4 traffic-class 5 dcb ets wrr 0
+   interface ethernet 1/4 traffic-class 6 dcb ets wrr 0
+   interface ethernet 1/4 traffic-class 7 dcb ets wrr 0
+   interface ethernet 1/6 traffic-class 0 dcb ets wrr 50
+   interface ethernet 1/6 traffic-class 1 dcb ets wrr 50
+   interface ethernet 1/6 traffic-class 2 dcb ets wrr 0
+   interface ethernet 1/6 traffic-class 3 dcb ets wrr 0
+   interface ethernet 1/6 traffic-class 4 dcb ets wrr 0
+   interface ethernet 1/6 traffic-class 5 dcb ets wrr 0
+   interface ethernet 1/6 traffic-class 6 dcb ets wrr 0
+   interface ethernet 1/6 traffic-class 7 dcb ets wrr 0
+   interface ethernet 1/8-1/16 traffic-class 0 dcb ets wrr 50
+   interface ethernet 1/8-1/16 traffic-class 1 dcb ets wrr 50
+   interface ethernet 1/8-1/16 traffic-class 2 dcb ets wrr 0
+   interface ethernet 1/8-1/16 traffic-class 3 dcb ets wrr 0
+   interface ethernet 1/8-1/16 traffic-class 4 dcb ets wrr 0
+   interface ethernet 1/8-1/16 traffic-class 5 dcb ets wrr 0
+   interface ethernet 1/8-1/16 traffic-class 6 dcb ets wrr 0
+   interface ethernet 1/8-1/16 traffic-class 7 dcb ets wrr 0
+   interface port-channel 1 traffic-class 0 dcb ets wrr 50
+   interface port-channel 1 traffic-class 1 dcb ets wrr 50
+   interface port-channel 1 traffic-class 2 dcb ets wrr 0
+   interface port-channel 1 traffic-class 3 dcb ets wrr 0
+   interface port-channel 1 traffic-class 4 dcb ets wrr 0
+   interface port-channel 1 traffic-class 5 dcb ets wrr 0
+   interface port-channel 1 traffic-class 6 dcb ets wrr 0
+   interface port-channel 1 traffic-class 7 dcb ets wrr 0

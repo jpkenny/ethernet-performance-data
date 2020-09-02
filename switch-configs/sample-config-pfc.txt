@@ -1,0 +1,17 @@
+##
+## DCBX PFC configuration
+##
+   dcb priority-flow-control enable force
+   dcb priority-flow-control priority 0 enable
+   dcb priority-flow-control priority 1 enable
+   dcb priority-flow-control priority 2 enable
+   dcb priority-flow-control priority 3 enable
+   dcb priority-flow-control priority 4 enable
+   dcb priority-flow-control priority 5 enable
+   dcb priority-flow-control priority 6 enable
+   dcb priority-flow-control priority 7 enable
+   interface ethernet 1/2 dcb priority-flow-control mode on force
+   interface ethernet 1/4 dcb priority-flow-control mode on force
+   interface ethernet 1/6 dcb priority-flow-control mode on force
+   interface ethernet 1/8-1/16 dcb priority-flow-control mode on force
+   interface port-channel 1-8 dcb priority-flow-control mode on force
