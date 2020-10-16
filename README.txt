@@ -18,6 +18,22 @@ NIC Drivers/Firmware   MLNX_OFED_LINUX-4.6-1.0.1.1, fw\_ver: 16.24.1000
 Switch OS               Mellanox Onyx, version 3.8.2004 (3.7.1134 for SN2700)
 
 
+#
+# TCP Host Tuning
+# Primarily CentOS 7 default values.
+# Did not see improvement from the recommended settings in N. Hanford and B. Tierney,
+# “Recent linux tcp updates, and how to tune your 100g host,” 2016.
+#
+mtu 4500
+txqueuelen 1000
+net.core.rmem_max = 212992
+net.core.wmem_max = 212992
+net.ipv4.tcp_rmem = 4096        87380   6291456
+net.ipv4.tcp_wmem = 4096        16384   4194304
+net.ipv4.tcp_congestion_control = cubic
+net.ipv4.tcp_mtu_probing = 0
+net.core.default_qdisc = pfifo_fast
+
 
 #
 # Benchmark Details
